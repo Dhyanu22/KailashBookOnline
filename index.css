@@ -49,7 +49,7 @@ li a {
   text-align: center;
   justify-content: center;
   text-decoration: none;
-  padding: 2.0625rem 1.5625rem 0px 1.25rem;
+  padding: 0.0625rem 1.5625rem 0px 1.25rem;
   margin: 0 0.625rem 0 0.625rem;
   height: 1.0625rem;
   border-radius: 0.625rem;
@@ -302,12 +302,12 @@ li a {
 
 .slider:before {
   left: 0;
-  background: linear-gradient(to left, #f4bf96, #f4bf96);
+  background: linear-gradient(to left, rgba(244, 191, 150, 0), #f4bf96);
 }
 
 .slider:after {
   right: 0;
-  background: linear-gradient(to right, #f4bf96, #f4bf96);
+  background: linear-gradient(to right, rgba(244, 191, 150, 0), #f4bf96);
 }
 
 .slider:hover .slider-slide {
@@ -380,7 +380,7 @@ li a {
 
 
   .intro {
-    height: 35vh;
+    height: 40vh;
     padding: 7.5rem 2.5rem 3rem 2.5rem;
     display: flex;
   }
@@ -477,7 +477,7 @@ li a {
   
   .join {
     padding: 3rem 2rem 2.5rem 2rem;
-    height: 46vh;
+    height: 65vh;
   }
   
   .joinContent {
@@ -500,7 +500,7 @@ li a {
   
   .joinImg {
     width: 50%;
-    height: 125%;
+    height: 150%;
   }
 
   .joinImg img{
@@ -827,6 +827,7 @@ li a {
 .cube:nth-child(4) {
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
+  width: 0.4rem;
   left: 90vw;
   top: 10vh;
 }
