@@ -22,7 +22,7 @@ body {
   padding: 0px 34px 0 0;
   position: fixed;
   z-index: 10;
-  width: 92%;
+  width: 100%;
 }
 
 .logo {
@@ -327,7 +327,7 @@ li a {
   border-radius: 0.5rem;
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 700px) {
   html{
     width: 100%;
     overflow-x: hidden;
@@ -346,7 +346,7 @@ li a {
     padding: 0px 15px 0 0;
     position: fixed;
     z-index: 10;
-    width: 100%;
+    width: 97%;
 }
 
 
@@ -380,7 +380,7 @@ li a {
 
 
   .intro {
-    height: 46vh;
+    height: 35vh;
     padding: 7.5rem 2.5rem 3rem 2.5rem;
     display: flex;
   }
@@ -477,7 +477,7 @@ li a {
   
   .join {
     padding: 3rem 2rem 2.5rem 2rem;
-    height: 65vh;
+    height: 46vh;
   }
   
   .joinContent {
