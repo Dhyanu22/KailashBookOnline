@@ -8,6 +8,7 @@ body {
   background-color: #fcf5ed;
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
+  overflow-x: hidden;
   /* font-weight: 7rem; */
 }
 
