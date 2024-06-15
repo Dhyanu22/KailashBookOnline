@@ -1,12 +1,3 @@
-const menuToggle = document.getElementById('menu-toggle');
-const centerNav = document.getElementById('centerNav');
-const rightNav = document.getElementById('rightNav');
-
-menuToggle.addEventListener('click', () => {
-    centerNav.classList.toggle('active');
-    rightNav.classList.toggle('active');
-});
-
 document.addEventListener("DOMContentLoaded", () => {
     const component = document.querySelector(".joinImg img");
     
@@ -23,5 +14,15 @@ document.addEventListener("DOMContentLoaded", () => {
     
     observer.observe(component);
 });
+
+document.getElementById('menu-toggle').addEventListener('click', function() {
+    var navItems = document.getElementById('nav-items');
+    if (navItems.classList.contains('active')) {
+        navItems.classList.remove('active');
+    } else {
+        navItems.classList.add('active');
+    }
+});
+
 
 <button onclick="window.location.href='https://api.whatsapp.com/send?phone=8950742105';" class="GFG">Click Here</button>
