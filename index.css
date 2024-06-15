@@ -51,7 +51,7 @@ li a {
   text-decoration: none;
   padding: 2.0625rem 1.5625rem 0px 1.25rem;
   margin: 0 0.625rem 0 0.625rem;
-  height: 4.0625rem;
+  height: 1.0625rem;
   border-radius: 0.625rem;
 }
 
@@ -327,7 +327,7 @@ li a {
   border-radius: 0.5rem;
 }
 
-@media only screen and (max-width: 431px) {
+@media only screen and (max-width: 1000px) {
   html{
     width: 100%;
     overflow-x: hidden;
@@ -500,6 +500,7 @@ li a {
   
   .joinImg {
     width: 50%;
+    height: 125%;
   }
 
   .joinImg img{
