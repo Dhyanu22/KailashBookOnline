@@ -316,7 +316,7 @@ li a {
 
 .slider-slide {
   display: inline-block;
-  animation: 15s slide infinite linear;
+  animation: 45s slide infinite linear;
   animation: duration timing-function delay iteration-count direction fill-mode;
 }
 
