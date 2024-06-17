@@ -208,7 +208,7 @@ li a {
 
 .noticeImg {
   width: 40%;
-  height: 80%;
+  height: 100%;
   margin: 0 auto 0 auto;
 }
 
@@ -431,7 +431,6 @@ li a {
   .introImg {
     margin: auto auto;
     width: 40%;
-    height: 110%;
     padding: 0rem 1rem;
   }
 
