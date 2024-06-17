@@ -403,9 +403,9 @@ li a {
 
   .introContent {
     width: 95%;
-    height: 65%;
-    padding: 3.125rem 1rem;
-    text-align: center;
+        height: 65%;
+        padding: 3.125rem 1rem 0 1rem;
+        text-align: center;
   }
 
   .introContent h2 {
@@ -433,7 +433,7 @@ li a {
 
   .introImg {
     margin: auto auto;
-    width: 60%;
+    width: 80%;
     height: 100%;
     padding: 0rem 1rem 5rem 1rem;
   }
