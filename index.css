@@ -394,15 +394,18 @@ li a {
   }
 
   .intro {
-    height: 50vh;
     padding: 3.5rem 0 3rem 0;
+    height: 60vh;
     display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 
   .introContent {
-    width: 50%;
-    height: 100%;
+    width: 95%;
+    height: 65%;
     padding: 3.125rem 1rem;
+    text-align: center;
   }
 
   .introContent h2 {
@@ -423,14 +426,15 @@ li a {
     border-radius: 2.5rem;
     color: #fcf5ed;
     font-size: 0.8rem;
-    margin: 1.5rem 0 0 0;
+    margin: 1.5rem auto 0 auto;
     padding: 18px 5px;
     background-color: #1f1717;
   }
 
   .introImg {
     margin: auto auto;
-    width: 40%;
+    width: 60%;
+    height: 100%;
     padding: 0rem 1rem;
   }
 
@@ -461,20 +465,22 @@ li a {
 
   .workingCards {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 100%;
     gap: 1.25rem;
     margin: 0;
+    justify-content: center;
+  }
+
+  .workingCard {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-left: 0rem;
     justify-content: center;
     align-items: baseline;
   }
 
-  .workingCard {
-    margin-left: 0rem;
-    justify-content: center;
-  }
-
   .workingCard h3 {
-    font-size: 1.05rem;
+    font-size: 1.5rem;
     color: #1f1717;
   }
 
@@ -497,16 +503,16 @@ li a {
   }
 
   .joinContent h1 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin: 1.875rem 0;
   }
 
   .joinContent h2 {
-    font-size: 0.625rem;
+    font-size: 0.86rem;
   }
 
   .joinContent p {
-    font-size: 0.65rem;
+    font-size: 0.85rem;
   }
 
   .joinImg {
