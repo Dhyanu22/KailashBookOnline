@@ -98,9 +98,15 @@ li a {
 }
 
 .introImg {
-  margin: 4.375rem 0 0 3.125rem;
-  width: 40%;
-  height: 35%;
+  margin: auto 0;
+  width: 35%;
+  height: 80%;
+}
+
+.introImg img{
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
 }
 
 .slider {
@@ -193,13 +199,15 @@ li a {
 }
 
 .noticeImg {
-  width: 50%;
+  width: 40%;
+  height: 80%;
   margin: 0 auto 0 auto;
 }
 
 .noticeImg img {
-  width: 40%;
-  height: 60%;
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
 }
 
 .noticeContent-card {
@@ -413,17 +421,6 @@ li a {
     background-color: #1f1717;
 }
 
-  .introImg {
-    margin: 1.375rem 0 0 1.125rem;
-    width: 40%;
-    height: 35%;
-  }
-
-  .introImg img{
-    width: 10.625rem;
-    height: 16.25rem;
-  }
-
   .slider {
     height: 7.375rem;
     background-color: #f4bf96;
@@ -530,14 +527,15 @@ li a {
   }
   
   .noticeImg {
-    width: 50%;
-    height: 20vh;
-    margin: 0 0 8px 93px;
+    width: 60%;
+    height: 90%;
+    margin: 0 auto 0 auto;
   }
   
   .noticeImg img {
     width: 100%;
     height: 100%;
+    border-radius: 2rem;
   }
 
   .noticeContent{
