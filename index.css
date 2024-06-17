@@ -394,7 +394,7 @@ li a {
   }
 
   .intro {
-    height: 56vh;
+    height: 50vh;
     padding: 3.5rem 0 3rem 0;
     display: flex;
   }
@@ -437,7 +437,7 @@ li a {
 
   .slider {
     height: 7.375rem;
-    background-color: Black;
+    background-color: #f4bf96;
     padding: 0px 2rem 0 2rem;
   }
 
@@ -470,12 +470,12 @@ li a {
   }
 
   .workingCard {
-    margin-left: 1.875rem;
+    margin-left: 0rem;
     justify-content: center;
   }
 
   .workingCard h3 {
-    font-size: 0.75rem;
+    font-size: 1.05rem;
     color: #1f1717;
   }
 
